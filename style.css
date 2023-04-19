@@ -5,7 +5,8 @@ color: white;
 text-align: right;
 /* margin: 0px 80px 0px 0px; */
 margin-right: 80px;
-font-family: Verdana;
+font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
 }
 
 h1{
@@ -32,9 +33,11 @@ li{
 ul li a{
     color: white;
     text-decoration: none;
-    font-size: 15px;
-    
+    font-size: 20px; 
     padding: 5px;
+}
+ul li a:hover{
+    opacity: .7;
 }
 .segundo-paragrafo{
     margin-bottom: 60px;
