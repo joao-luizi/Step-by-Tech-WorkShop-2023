@@ -6,8 +6,22 @@ text-align: right;
 /* margin: 0px 80px 0px 0px; */
 margin-right: 80px;
 font-family: 'Montserrat', sans-serif;
-overflow-x: hidden;
+max-width: 100%; 
+
+/* This section was added and wasnt on the original workshop 
+It's a bug fix for the appearing scroll bar on playhing the animate__fadeInDownBig and animate__fadeInUpBig*/
+overflow-x: hidden; 
+animation: hide-scroll 3s;
 }
+
+@keyframes hide-scroll {
+    from,
+    to {
+      overflow: hidden;
+    }
+  }
+/* This section was added and wasnt on the original workshop 
+It's a bug fix for the appearing scroll bar on playhing the animate__fadeInDownBig and animate__fadeInUpBig*/
 
 h1{
     font-size: 100px;
